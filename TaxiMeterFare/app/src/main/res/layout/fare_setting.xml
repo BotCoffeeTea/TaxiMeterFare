@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <TextView
+
+        android:id="@+id/vehicle_text"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="@string/vehicle"
+
+        android:textStyle="bold" />
+
+    <EditText
+
+        android:id="@+id/vehicle_edit_text"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no" />
+
+    <TextView
+
+        android:id="@+id/initial_fare_text"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="@string/initial_fare"
+
+        android:textStyle="bold" />
+
+    <EditText
+
+        android:id="@+id/initial_fare_edit_text"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no" />
+
+    <TextView
+
+        android:id="@+id/distance_rate_text"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="@string/distance_rate"
+
+        android:textStyle="bold" />
+
+    <EditText
+
+        android:id="@+id/distance_rate_edit_text"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content" />
+
+    <TextView
+
+        android:id="@+id/long_distance_rate_text"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="@string/long_distance_rate"
+
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/vehicle_name_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/vehicle_name_hint"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:importantForAutofill="no" />
+    <EditText
+        android:id="@+id/base_fare_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/vehicle_name_hint"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:importantForAutofill="no" />
+    <EditText
+        android:id="@+id/per_km_fare_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/vehicle_name_hint"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:importantForAutofill="no" />
+    <EditText
+        android:id="@+id/long_distance_fare_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/vehicle_name_hint"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:importantForAutofill="no" />
+
+    <EditText
+
+        android:id="@+id/long_distance_rate_edit_text"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no" />
+
+    <Button
+
+        android:id="@+id/save_button"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="@string/save" />
+
+    <Button
+
+        android:id="@+id/delete_button"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="@string/delete" />
+
+</LinearLayout>

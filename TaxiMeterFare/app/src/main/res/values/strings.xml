@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Tên ứng dụng</string>
+    <string name="distance_text">Quãng đường:</string>
+    <string name="duration_text">Thời gian:</string>
+    <string name="fare_text">Giá cước:</string>
+    <string name="configure_fare_button">Cấu hình giá cước</string>
+    <string name="vehicle_text">Phương tiện:</string>
+    <string name="initial_fare_text">Giá cước ban đầu:</string>
+    <string name="distance_rate_text">Giá vé/km:</string>
+    <string name="long_distance_rate_text">Giá vé/km cho quãng đường dài:</string>
+    <string name="save_button">Lưu</string>
+    <string name="delete_button">Xóa</string>
+    <string name="vehicle_name_hint">Test</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="long_distance_rate">Long Distance Rate:</string>
+    <string name="distance_rate">Distance Rate:</string>
+    <string name="initial_fare">Initial Fare:</string>
+    <string name="vehicle">Vehicle:</string>
+</resources>

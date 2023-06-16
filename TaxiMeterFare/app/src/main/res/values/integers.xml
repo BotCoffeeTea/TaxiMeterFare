@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="initial_fare">12000</integer>
+
+    <integer name="distance_rate">12500</integer>
+
+    <integer name="long_distance_rate">11500</integer>
+
+</resources>
